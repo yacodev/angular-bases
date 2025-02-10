@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'app-counter',
+  templateUrl: './counter.component.html',
   standalone: false,
 })
-export class AppComponent {
-  public title: string = 'first App';
+export class CounterComponent {
   public counter: number = 0;
 
   increaseBy(value: number): void {
